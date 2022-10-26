@@ -1,0 +1,18 @@
+p{
+    background-color: green;
+}
+
+body{
+    background-color: black;
+    color: aquamarine;
+}
+
+.klaseberria{
+    /* klase selectorea*/
+    background: red;
+}
+
+#idberria{
+    /* id selectorea*/
+    background-color: white;
+}

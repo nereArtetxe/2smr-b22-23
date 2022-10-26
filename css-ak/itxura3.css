@@ -1,0 +1,37 @@
+body{
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "aside section section"
+        "aside footer footer";
+    gap: 1px; 
+    color:white  
+}
+header{
+    background-color: darkgreen;
+    grid-area:header;
+}
+nav{
+    background-color: blue;
+    grid-area:nav;
+}
+aside{
+    background-color: coral;
+    grid-area:aside;
+}
+section{
+    background-color: deeppink;
+    grid-area:section;
+}
+footer{
+    background-color: lightseagreen;
+    grid-area:footer;
+}
+table{
+    border: 1px;
+    border-collapse: collapse;
+}
+.saresozialak{
+    width: 2em;
+}

@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 1px;   
+}
+header{
+    background-color: darkgreen;
+    grid-column:1/4;
+    grid-row:1;
+}
+nav{
+    background-color: blue;
+    grid-column:1/4;
+    grid-row:2;
+}
+aside{
+    background-color: coral;
+    grid-column: 1;
+    grid-row: 3/5;
+}
+section{
+    background-color: deeppink;
+    grid-column: 2/4;
+    grid-row:3;
+}
+footer{
+    background-color: lightseagreen;
+    grid-column:2/4;
+    grid-row: 4;
+}
